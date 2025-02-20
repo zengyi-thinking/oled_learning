@@ -31,10 +31,12 @@
  */
 
 #include "ti_msp_dl_config.h"
+#include "oled.h"
 
 int main(void)
 {
     SYSCFG_DL_init();
+    OLED_Clear();
 
     while (1) {
     }
